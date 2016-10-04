@@ -1,0 +1,36 @@
+{
+    "author": "Ben Short",
+    "dependencies": {},
+    "keywords": [],
+    "name": "block",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "BlockSchedule",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_CONDITIONS": 1,
+            "KEY_HIGH_TEMP": 3,
+            "KEY_LOW_TEMP": 2,
+            "KEY_SUNRISE": 4,
+            "KEY_SUNSET": 5,
+            "KEY_TEMPERATURE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "3a1b3ed4-3e58-40ac-a415-398d4ed2649c",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
